@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace experiment_app.Data
 {
-    internal class RandomDataRow
+    internal class CsvRandomDataRow
     {
         public int Id { get; set; }
         public string Lastname { get; set; }
@@ -20,7 +20,7 @@ namespace experiment_app.Data
         public string Material { get; set; }
         public string Equipment { get; set; }
 
-        public RandomDataRow()
+        public CsvRandomDataRow()
         {
             Id = -1;
             Lastname = String.Empty;
